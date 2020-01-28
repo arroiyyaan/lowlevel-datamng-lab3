@@ -63,8 +63,11 @@ The next task is to modify the shell interface program so that it provides a his
 The user will be able to list the command history by entering the command `history` at the osh> prompt. As an example, assume that the history consists of the commands (from most to least recent): `ps, ls -l, top, cal, who, date `. 
 
 The command history will output:
-6 ps
-5 ls -l 4 top
-3 cal
+```shell
+osh> 1 date
 2 who
-1 date
+3 cal
+4 top
+5 ls -l
+6 ps
+```
